@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 rsync -av --include='*/' --include='*.md' --exclude='*' \
-  /path/to/Obsidian/vault-publish/ ./content/
+  /Users/jycai/Development/Writing Portfolio/Personal Vault/vault-publish/ ./content/
