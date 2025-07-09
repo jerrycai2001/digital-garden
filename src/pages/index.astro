@@ -11,6 +11,15 @@ const title = "Home";
     <p style="max-width: 600px; margin: 0 auto; font-size: 1.1rem; color: #666;">
       A digital garden of knowledge, creative systems, and philosophical engineering.
     </p>
+
+    <section class="title-section">
+      <h1 id="title"> THE WAY<br>OF CODE </h1>
+      <h2 id="subtitle"> The Timeless Art of Vibe Coding</h2>
+      <div class="square" style="cursor: pointer; width: 23vh; height: 23vh; margin: 0px auto; display: block;">
+        <canvas width="400" height="400" style="opacity: 1; transition: opacity 0.3s; width: 100%; height: 100%;"></canvas>
+      </div>
+      <h3 id="author"> Based on Lao Tzu <br> Adapted by Rick Rubin </h3>
+    </section>
     <div style="margin-top: 3rem;">
       <a href="/writing" style="margin: 1rem; text-decoration: none; font-weight: 500;">Writing</a>
       <a href="/projects" style="margin: 1rem; text-decoration: none; font-weight: 500;">Projects</a>
@@ -18,4 +27,61 @@ const title = "Home";
       <a href="/contact" style="margin: 1rem; text-decoration: none; font-weight: 500;">Contact</a>
     </div>
   </section>
+
+  <style>
+    .title-section {
+      background: #f7f5ef;
+      padding: 3rem 0 2rem 0;
+      margin: 3rem auto 0 auto;
+      max-width: 480px;
+      border-radius: 0.5rem;
+      box-sizing: border-box;
+    }
+
+    #title {
+      font-family: 'Cormorant Garamond', 'Times New Roman', serif;
+      font-size: 2.8rem;
+      letter-spacing: 0.4em;
+      font-weight: 400;
+      margin: 0 0 0.5rem 0;
+      line-height: 1.1;
+      color: #222;
+      text-align: center;
+    }
+
+    #subtitle {
+      font-family: 'Cormorant Garamond', 'Times New Roman', serif;
+      font-style: italic;
+      font-size: 1.4rem;
+      font-weight: 400;
+      color: #444;
+      margin: 0 0 2.5rem 0;
+      text-align: center;
+    }
+
+    .square {
+      background: #f7f5ef;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 2.5rem auto;
+      border-radius: 0.25rem;
+      box-shadow: none;
+      width: 240px;
+      height: 240px;
+    }
+
+    #author {
+      font-family: 'Cormorant Garamond', 'Times New Roman', serif;
+      font-size: 1.1rem;
+      color: #222;
+      font-weight: 400;
+      margin: 2.5rem 0 0 0;
+      text-align: center;
+      line-height: 1.5;
+    }
+  </style>
 </BaseLayout>
+
+
+
