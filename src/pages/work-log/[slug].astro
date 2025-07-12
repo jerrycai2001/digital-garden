@@ -1,0 +1,41 @@
+---
+import BaseLayout from '../../layouts/Layout.astro';
+import { getEntryBySlug } from 'astro:content';
+
+/** ----------------------------------------------------------------
+ * 1. Static paths – tell Astro every URL that should exist
+ * ---------------------------------------------------------------- */
+export async function getStaticPaths() {
+  const { getCollection } = await import('astro:content');
+  const logs = await getCollection('work-log');
+
+  return logs.map((log) => ({
+    params: { slug: log.slug },   // → /work-log/<slug>/
+  }));
+}
+
+/** ----------------------------------------------------------------
+ * 2. Load the entry that matches the current URL
+ * ---------------------------------------------------------------- */
+const { slug } = Astro.params;
+const entry = await getEntryBySlug('work-log', slug);
+
+if (!entry) {
+  throw new Error(`No log entry found for slug: ${slug}`);
+}
+
+const { Content, data } = await entry.render();
+---
+
+<BaseLayout title={data.title}>
+  <h1>{data.title}</h1>
+  {data.date && (
+    <time datetime={data.date.toISOString()}>
+      {data.date.toLocaleDateString()}
+    </time>
+  )}
+
+  <article class="prose mt-4">
+    <Content />
+  </article>
+</BaseLayout>

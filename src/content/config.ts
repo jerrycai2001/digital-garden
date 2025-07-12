@@ -10,9 +10,9 @@ const workLog = defineCollection({
   }),
   /* OPTIONAL: If you did NOT move the files under
      content/work-log/, give Astro a loader:
-
-  loader: { base: "./content/work-log", pattern: "*.md" },
   */
+  loader: { base: "./content/work-log", pattern: "*.md" },
+
 });
 
 export const collections = { "work-log": workLog };
