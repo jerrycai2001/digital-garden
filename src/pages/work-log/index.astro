@@ -2,20 +2,21 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 
-// pull all entries, newest first
 const logs = (await getCollection('work-log'))
-  .filter((e) => !import.meta.env.PROD || !e.data.draft)
-  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+  .filter((e) => !import.meta.env.PROD || !e.data.draft)  // hides drafts in prod
+  .sort((a, b) => b.data.date?.valueOf() - a.data.date?.valueOf());
 ---
 
 <BaseLayout title="Work Log">
   <h1>Work Log</h1>
 
+  {logs.length === 0 && <p>No log entries found.</p>}
+
   <ul>
     {logs.map((log) => (
-      <li style="margin:.5rem 0;">
+      <li>
         <a href={`/work-log/${log.slug}/`}>
-          {log.data.date.toLocaleDateString()} — {log.data.title}
+          {log.data.date?.toLocaleDateString() ?? "No date"} — {log.data.title}
         </a>
       </li>
     ))}
