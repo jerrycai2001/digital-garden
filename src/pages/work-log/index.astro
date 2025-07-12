@@ -1,5 +1,5 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
+import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 
 const logs = (await getCollection('work-log'))
@@ -7,7 +7,7 @@ const logs = (await getCollection('work-log'))
   .sort((a, b) => b.data.date?.valueOf() - a.data.date?.valueOf());
 ---
 
-<BaseLayout title="Work Log">
+<Layout title="Work Log">
   <h1>Work Log</h1>
 
   {logs.length === 0 && <p>No log entries found.</p>}
