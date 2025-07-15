@@ -1,62 +1,42 @@
 ---
-import BaseLayout from '../layouts/Layout.astro';
+import Layout from '../layouts/Layout.astro';
 const title = "Home";
 ---
 
-<BaseLayout title={title}>
-  <section style="padding: 4rem 2rem; text-align: left; max-width: 700px; margin: 0 auto;">
-    <h1 style="font-family: 'Cormorant Garamond', 'Times New Roman', serif; font-size: 2.5rem; margin-bottom: 1rem;">
-      jerry cai
-    </h1>
-    <p style="max-width: 600px; margin: 0; font-size: 1.1rem; color: #666; font-family: 'Cormorant Garamond', 'Times New Roman', serif;">
-      i explore, build and connect.  
-    </p>
-    <section style="margin-top: 2rem;">
-    </section>
+<Layout title={title}>
+  <section style="padding: 4rem 2rem; max-width: 700px; margin: 0 auto; font-family: 'Cormorant Garamond', 'Times New Roman', serif; color: #444;">
+    <h1 style="font-family: 'Cormorant Garamond', 'Times New Roman', serif; font-size: 2.5rem; margin-bottom: 1rem;">jerry cai</h1>
+    <p style="max-width: 600px; margin: 0; font-size: 1.1rem; color: #666; font-family: 'Cormorant Garamond', 'Times New Roman', serif;">i explore, build and connect.</p>
 
-     <section style="margin-top: 2rem;">
-      <p style="max-width: 600px; margin: 0; font-size: 1.1rem; color: #666; font-family: 'Cormorant Garamond', 'Times New Roman', serif;">
-    working on mission-critical technology for human impact<br>
-    currently building an ai-enabled event coordination platform<br>
-    previously worked on mixed reality sensors, ems and medical imaging<br>
-    also trained with ski patrol and fly-fishing guides<br>
+    <div style="margin-bottom: 2.5rem; line-height: 1.6;">
+      working on mission-critical technology for human impact<br>
+      currently building an ai-enabled event coordination platform<br>
+      previously worked on mixed reality sensors, ems and medical imaging<br>
+      also trained with ski patrol and fly-fishing guides
+    </div>
 
-    </section>
+    <div style="margin-bottom: 2.5rem;">
+      <a href="/work-log" style="font-size: 1.15rem; color: #444; text-decoration: underline;">work log – daily updates</a>
+    </div>
 
-    <section style="margin-top: 2rem;">
-      <a href="/work-log" style="max-width: 600px; margin: 0; font-size: 1.1rem; color: #666; font-family: 'Cormorant Garamond', 'Times New Roman', serif; text-decoration: underline;">
-      work log – daily updates
-      </a>
-    </section>
+    <div style="margin-bottom: 2.5rem;">
+      <span style="font-weight: bold;">about:</span> co-founder of Agorum, prev. neuroscience/engineering at Penn '24
+    </div>
 
-    
-    <section style="margin-top: 2rem;">
-      <p style="max-width: 600px; margin: 0; font-size: 1.1rem; color: #666; font-family: 'Cormorant Garamond', 'Times New Roman', serif;">
-      <strong><a href=""></a>about:</strong> co-founder of Agorum, prev. neuroscience/engineering at Penn '24 
-      </p>
-    </section>
+    <div style="margin-bottom: 2.5rem;">
+      <span style="font-weight: bold;">previous projects:</span> augmented reality, brain-computer interfaces (see WSJ article), healthcare ai
+    </div>
 
-    <section style="margin-top: 2rem;">
-      <p style="max-width: 600px; margin: 0; font-size: 1.1rem; color: #666; font-family: 'Cormorant Garamond', 'Times New Roman', serif;">
-      <strong>previous projects:</strong> augmented reality, brain-computer interfaces (see WSJ article), healthcare ai
-      </p>
-    </section>
-    
-    <section style="margin-top: 2rem;">
-      <p style="max-width: 600px; margin: 0; font-size: 1.1rem; color: #666; font-family: 'Cormorant Garamond', 'Times New Roman', serif;">
-      <strong>interests:</strong> currently exploring perceptual engineering, biological systems and flow states
-      </p>
-      <p style="max-width: 600px; margin: 0; font-size: 1.1rem; color: #666; font-family: 'Cormorant Garamond', 'Times New Roman', serif;">
-      <strong>personal interests:</strong> photography (@jcai.jpeg), tennis, running, fishing, reading
-      </p>
-    </section>
+    <div style="margin-bottom: 2.5rem;">
+      <span style="font-weight: bold;">interests:</span> currently exploring perceptual engineering, biological systems and flow states<br>
+      <span style="font-weight: bold;">personal interests:</span> photography (@jcai.jpeg), tennis, running, fishing, reading
+    </div>
 
-    <section style="margin-top: 2rem;">
-      <p style="max-width: 600px; margin: 0; font-size: 1.1rem; color: #666; font-family: 'Cormorant Garamond', 'Times New Roman', serif;">
-      x: @jerber2001 | github: @jerber2001 | email: jerry@agorum.co
-      </p>
-    </section>
-    
+    <div style="margin-top: 2.5rem; font-size: 1.05rem;">
+      x: <a href="https://x.com/Jerber2001" style="color: #444; text-decoration: underline;">@jerber2001</a> |
+      github: <a href="https://github.com/jerrycai2001" style="color: #444; text-decoration: underline;">@jerber2001</a> |
+      email: <a href="mailto:jerry@agorum.co" style="color: #444; text-decoration: underline;">jerry@agorum.co</a>
+    </div>
 
     <section class="title-section" style="text-align: left;">
       <h1 id="title"> THE WAY </h1>
@@ -88,7 +68,7 @@ const title = "Home";
       text-align: left;
     }
   </style>
-</BaseLayout>
+</Layout>
 
 
 

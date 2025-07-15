@@ -8,26 +8,53 @@ const { title } = Astro.props;
     <meta charset="UTF-8" />
     <title>{title}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap" rel="stylesheet">
     <style>
       body {
         margin: 0;
         padding: 0;
-        font-family: 'Helvetica Neue', sans-serif;
+        font-family: 'Cormorant Garamond', 'Times New Roman', serif;
         background-color: #f7f5ef;
+        color: #444;
+      }
+      main {
+        max-width: 700px;
+        margin: 3rem auto;
+        padding: 0 2rem;
+        background: transparent;
+      }
+      h1 {
+        font-size: 3rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        color: #222;
+      }
+      h2, h3, h4, h5 {
+        font-weight: 700;
         color: #222;
       }
       a {
-        color: #000;
-        border-bottom: 1px solid transparent;
-        transition: border-color 0.2s;
+        color: #444;
+        text-decoration: underline;
+        transition: color 0.2s;
       }
       a:hover {
-        border-color: #888;
+        color: #222;
+      }
+      b, strong {
+        font-weight: 700;
+        color: #222;
+      }
+      p, li, time, span {
+        font-size: 1.15rem;
+        line-height: 1.6;
       }
     </style>
   </head>
   <body>
-    <slot />
+    <main>
+      <slot />
+    </main>
   </body>
 </html>
 
