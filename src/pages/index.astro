@@ -4,68 +4,79 @@ const title = "Home";
 ---
 
 <Layout title={title}>
-  <section style="padding: 4rem 2rem; max-width: 700px; margin: 0 auto; font-family: 'Cormorant Garamond', 'Times New Roman', serif; color: #444;">
-    <h1 style="font-family: 'Cormorant Garamond', 'Times New Roman', serif; font-size: 2.5rem; margin-bottom: 1rem;">jerry cai</h1>
-    <p style="max-width: 600px; margin: 0; font-size: 1.1rem; color: #666; font-family: 'Cormorant Garamond', 'Times New Roman', serif;">i explore, build and connect.</p>
-
-    <div style="margin-bottom: 2.5rem; line-height: 1.6;">
-      working on mission-critical technology for human impact<br>
-      currently building an ai-enabled event coordination platform<br>
-      previously worked on mixed reality sensors, ems and medical imaging<br>
-      also trained with ski patrol and fly-fishing guides
-    </div>
-
-    <div style="margin-bottom: 2.5rem;">
-      <a href="/work-log" style="font-size: 1.15rem; color: #444; text-decoration: underline;">work log – daily updates</a>
-    </div>
-
-    <div style="margin-bottom: 2.5rem;">
-      <span style="font-weight: bold;">about:</span> co-founder of Agorum, prev. neuroscience/engineering at Penn '24
-    </div>
-
-    <div style="margin-bottom: 2.5rem;">
-      <span style="font-weight: bold;">previous projects:</span> augmented reality, brain-computer interfaces (see WSJ article), healthcare ai
-    </div>
-
-    <div style="margin-bottom: 2.5rem;">
-      <span style="font-weight: bold;">interests:</span> currently exploring perceptual engineering, biological systems and flow states<br>
-      <span style="font-weight: bold;">personal interests:</span> photography (@jcai.jpeg), tennis, running, fishing, reading
-    </div>
-
-    <div style="margin-top: 2.5rem; font-size: 1.05rem;">
-      x: <a href="https://x.com/Jerber2001" style="color: #444; text-decoration: underline;">@jerber2001</a> |
-      github: <a href="https://github.com/jerrycai2001" style="color: #444; text-decoration: underline;">@jerber2001</a> |
-      email: <a href="mailto:jerry@agorum.co" style="color: #444; text-decoration: underline;">jerry@agorum.co</a>
-    </div>
-
-    <section class="title-section" style="text-align: left;">
-      <h1 id="title"> THE WAY </h1>
-      <h2 id="subtitle"> THE DAO</h2>
-      <div class="square" style="cursor: pointer; width: 23vh; height: 23vh; margin: 0; display: block;">
-        <canvas width="400" height="400" style="opacity: 1; transition: opacity 0.3s; width: 100%; height: 100%;"></canvas>
+  <div style="display: flex;">
+    <!-- Sidebar Navigation -->
+    <nav style="min-width: 180px; max-width: 220px; height: 100vh; position: fixed; left: 0; top: 0; background: #f7f5ef; padding: 2.5rem 1.5rem 2.5rem 2rem; font-family: 'Cormorant Garamond', serif; color: #444; border-right: 1px solid #ece9e0;">
+      <ul style="list-style: none; padding: 0; margin: 0 0 2.5rem 0;">
+        <li style="margin-bottom: 1.5rem;"><a href="/projects" style="color: #444; text-decoration: none; font-size: 1.15rem;">projects</a></li>
+        <li style="margin-bottom: 1.5rem;"><a href="/experience" style="color: #444; text-decoration: none; font-size: 1.15rem;">publications</a></li>
+        <li style="margin-bottom: 1.5rem;"><a href="/blog" style="color: #444; text-decoration: none; font-size: 1.15rem;">blog</a></li>
+      </ul>
+      <div style="font-size: 1rem; margin-top: 2rem;">
+        <div style="margin-bottom: 0.5rem; font-weight: 600;">contact:</div>
+        <div>ig: <a href="https://instagram.com/jerber2001" style="color: #444; text-decoration: underline;">@jerber2001</a></div>
+        <div>x: <a href="https://x.com/Jerber2001" style="color: #444; text-decoration: underline;">@jerber2001</a></div>
+        <div>github: <a href="https://github.com/jerrycai2001" style="color: #444; text-decoration: underline;">@jerber2001</a></div>
+        <div>email: <a href="mailto:jerry@agorum.co" style="color: #444; text-decoration: underline;">jerry@agorum.co</a></div>
       </div>
-      <h3 id="author"> Based on Lao Tzu </h3>
-    </section>
-    <!-- <div style="margin-top: 3rem; text-align: left;">
-      <a href="/writing" style="margin: 1rem 1rem 1rem 0; text-decoration: none; font-weight: 500;">Writing</a>
-      <a href="/projects" style="margin: 1rem 1rem 1rem 0; text-decoration: none; font-weight: 500;">Projects</a>
-      <a href="/vault" style="margin: 1rem 1rem 1rem 0; text-decoration: none; font-weight: 500;">Vault</a>
-      <a href="/contact" style="margin: 1rem 1rem 1rem 0; text-decoration: none; font-weight: 500;">Contact</a>
-    </div> -->
-  </section>
+    </nav>
 
+    <!-- Main Content -->
+    <section style="padding: 4rem 2rem; max-width: 700px; margin: 0 auto; font-family: 'Cormorant Garamond', 'Times New Roman', serif; color: #444; margin-left: 240px;">
+      <h1 style="font-family: 'Cormorant Garamond', 'Times New Roman', serif; font-size: 2.5rem; margin-bottom: 1rem;">jerry cai</h1>
+      <p style="max-width: 800px; margin: 0; font-size: 1.75rem; color: #666; 
+      font-family: 'Cormorant Garamond', 'Times New Roman', serif;">
+      a systems-oriented technologist building in engineering, neuroscience and embodied experience
+      </p>
+
+      <div style="height: 1.5rem;"></div>
+
+      <p style="max-width: 800px; margin: 0; font-size: 1.25rem; color: #666; 
+      font-family: 'Cormorant Garamond', 'Times New Roman', serif;">
+     co-founder of Agorum, neuroscience/engineering at the University of Pennsylvania.</p>
+
+     <div style="height: 1.5rem;"></div>
+
+      <p style="max-width: 800px; margin: 0; font-size: 1.25rem; color: #666; 
+      font-family: 'Cormorant Garamond', 'Times New Roman', serif;">
+     a versatile operator and builder in bioengineering, AI systems and consumer tech.</p>
+
+      <div style="height: 1.5rem;"></div>
+
+     <p style="max-width: 800px; margin: 0; font-size: 1.25rem; color: #666; 
+      font-family: 'Cormorant Garamond', 'Times New Roman', serif;">
+     an avid photographer, outdoor athlete and music enthusiast. </p>
+
+
+    
+      <div style="margin-top: 2.5rem; font-size: 1.05rem;">
+        x: <a href="https://x.com/Jerber2001" style="color: #444; text-decoration: underline;">@jerber2001</a> |
+        github: <a href="https://github.com/jerrycai2001" style="color: #444; text-decoration: underline;">@jerber2001</a> |
+        email: <a href="mailto:jerry@agorum.co" style="color: #444; text-decoration: underline;">jerry@agorum.co</a>
+      </div>
+
+      
+      <!-- <div style="margin-top: 3rem; text-align: left;">
+        <a href="/writing" style="margin: 1rem 1rem 1rem 0; text-decoration: none; font-weight: 500;">Writing</a>
+        <a href="/projects" style="margin: 1rem 1rem 1rem 0; text-decoration: none; font-weight: 500;">Projects</a>
+        <a href="/vault" style="margin: 1rem 1rem 1rem 0; text-decoration: none; font-weight: 500;">Vault</a>
+        <a href="/contact" style="margin: 1rem 1rem 1rem 0; text-decoration: none; font-weight: 500;">Contact</a>
+      </div> -->
+    </section>
+  </div>
   <style>
-    .title-section {
-      background: #f7f5ef;
-      padding: 3rem 0 2rem 0;
-      margin: 3rem 0 0 0;
-      max-width: 480px;
-      border-radius: 0.5rem;
-      box-sizing: border-box;
-    }
-    /* Remove text-align: center from all selectors */
-    #title, #subtitle, #author {
-      text-align: left;
+    @media (max-width: 800px) {
+      nav {
+        position: static !important;
+        width: 100% !important;
+        max-width: none !important;
+        border-right: none !important;
+        padding: 1rem !important;
+      }
+      section {
+        margin-left: 0 !important;
+        padding: 2rem 1rem !important;
+      }
     }
   </style>
 </Layout>
