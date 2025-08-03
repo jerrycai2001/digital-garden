@@ -17,6 +17,9 @@ const { title } = Astro.props;
         background-color: #f7f5ef;
         color: #444;
       }
+      header {
+        padding: 1.5rem;          /* 16 px all around = Tailwind’s p-4 */
+      } 
       main {
         max-width: 700px;
         margin: 3rem auto;
@@ -52,6 +55,14 @@ const { title } = Astro.props;
     </style>
   </head>
   <body>
+    <header class="p-4">
+      <a
+        href={import.meta.env.BASE_URL ?? '/'}
+        class="inline-block text-sm hover:underline"
+      >
+        ← Back&nbsp;Home
+      </a>
+    </header>
     <main>
       <slot />
     </main>
