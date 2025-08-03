@@ -1,5 +1,6 @@
 ---
 const { title } = Astro.props;
+const isHome = Astro.url.pathname === '/';
 ---
 
 <!DOCTYPE html>
@@ -55,14 +56,13 @@ const { title } = Astro.props;
     </style>
   </head>
   <body>
-    <header class="p-4">
-      <a
-        href={import.meta.env.BASE_URL ?? '/'}
-        class="inline-block text-sm hover:underline"
-      >
-        ← Back&nbsp;Home
-      </a>
-    </header>
+  {!isHome && (
+      <header style="padding:1rem;">
+        <a href={import.meta.env.BASE_URL ?? '/'} style="text-decoration:underline;">
+          ← Back&nbsp;Home
+        </a>
+      </header>
+    )}
     <main>
       <slot />
     </main>
