@@ -1,25 +1,32 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+const items = await getCollection('projects');
+// sort newest first (optional)
+items.sort((a, b) => new Date(b.data.date) - new Date(a.data.date));
 ---
+
 <Layout title="Projects">
-  <div style="display: flex; justify-content: center;">
-    <!-- Main Content -->
-    <section style="
-      padding: 4rem 2rem;
-      max-width: 800px;
-      width: 100%;
-      margin: 0 auto;
-      font-family: 'Cormorant Garamond', 'Times New Roman', serif;
-      color: #444;
-      box-sizing: border-box;
-    ">
-      <h1 style="font-family: 'Cormorant Garamond', 'Times New Roman', serif; font-size: 2.5rem; margin-bottom: 1rem;">projects</h1>
-      <p style="max-width: 900px; margin: 0; font-size: 1.75rem; color: #666; font-family: 'Cormorant Garamond', 'Times New Roman', serif;">
-        [coming soon]
-      </p>
+  <h1 style="font-family:'Cormorant Garamond',serif">projects</h1>
 
-      <div style="height: 1.5rem;"></div>
+  {items.length === 0 && <p>[coming soon]</p>}
 
-      <p style="max-width: 800px; margin: 0; font-size: 1.25rem; color: #666; font-family: 'Cormorant Garamond', 'Times New Roman', serif;">
-        [under maintenance]
-      </p>
+  <ul style="list-style:none; padding:0">
+    {items.map(({ id, slug, data }) => (
+      <li style="margin:1.5rem 0">
+        <strong>{data.title}</strong>
+        {data.status === 'wip' && <em style="margin-left:.4rem">(wip)</em>}
+        <br />
+        {data.blurb}
+        {data.url && (
+          <>
+            {' '}
+            – <a href={data.url} target="_blank" rel="noopener">read more</a>
+          </>
+        )}
+      </li>
+    ))}
+  </ul>
+</Layout>
+      

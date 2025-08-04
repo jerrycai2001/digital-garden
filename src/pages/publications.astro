@@ -1,7 +1,32 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+import pubs from '../data/publications.yaml';
+
+const items = await getCollection('publications');
+// sort newest first (optional)
+items.sort((a, b) => new Date(b.data.date) - new Date(a.data.date));
 ---
-<Layout title="Publications">
-  <h1>Publications</h1>
-  <p>Publications and media.</p>
+
+<Layout title="Projects">
+  <h1 style="font-family:'Cormorant Garamond',serif">projects</h1>
+
+  {items.length === 0 && <p>[coming soon]</p>}
+
+  <ul style="list-style:none; padding:0">
+    {items.map(({ id, slug, data }) => (
+      <li style="margin:1.5rem 0">
+        <strong>{data.title}</strong>
+        {data.status === 'wip' && <em style="margin-left:.4rem">(wip)</em>}
+        <br />
+        {data.blurb}
+        {data.url && (
+          <>
+            {' '}
+            – <a href={data.url} target="_blank" rel="noopener">read more</a>
+          </>
+        )}
+      </li>
+    ))}
+  </ul>
 </Layout>
