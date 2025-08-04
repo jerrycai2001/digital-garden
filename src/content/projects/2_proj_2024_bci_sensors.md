@@ -8,7 +8,7 @@ role: "Lead Researcher & Author"
 advisors: ["Iahn Cajigas-Gonzalez, MD, PhD", "Judith McLean, PhD"]
 technologies: ["OptiTrack", "Python", "MATLAB"]
 tags: ["research-project", "neuroscience", "computer-vision", "biomechanics"]
-blurb: "Designed and executed an experimental framework to benchmark optical-tracking accuracy in the OR, establishing best-practice guidelines for upper-extremity motion capture during awake neurosurgery."
+blurb: "Designed and executed an experimental framework to benchmark optical-tracking accuracy in the OR, establishing guidelines for upper-extremity motion capture during awake neurosurgery."
 ---
 ---
 
