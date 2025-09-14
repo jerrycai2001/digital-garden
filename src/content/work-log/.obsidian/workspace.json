@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-09-13.md",
+                "file": "2025-09-14.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-09-13"
+              "title": "2025-09-14"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2025-09-13.md",
+                "file": "2025-09-14.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2025-09-13"
+              "title": "Backlinks for 2025-09-14"
             }
           },
           {
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2025-09-13.md",
+                "file": "2025-09-14.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2025-09-13"
+              "title": "Outgoing links from 2025-09-14"
             }
           },
           {
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2025-09-13.md",
+                "file": "2025-09-14.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-09-13"
+              "title": "Outline of 2025-09-14"
             }
           }
         ]
@@ -186,8 +186,9 @@
   },
   "active": "1b4a153d58052da6",
   "lastOpenFiles": [
-    "2025-09-10.md",
     "2025-09-13.md",
+    "2025-09-14.md",
+    "2025-09-10.md",
     "2025-09-09.md",
     "2025-09-08.md",
     "2025-09-10.txt",
