@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-09-09.md",
+                "file": "2025-09-22.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-09-09"
+              "title": "2025-09-22"
             }
           },
           {
@@ -35,8 +35,7 @@
               "title": "2025-09-14"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2025-09-14.md",
+                "file": "2025-09-22.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2025-09-14"
+              "title": "Backlinks for 2025-09-22"
             }
           },
           {
@@ -128,12 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2025-09-14.md",
+                "file": "2025-09-22.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2025-09-14"
+              "title": "Outgoing links from 2025-09-22"
             }
           },
           {
@@ -157,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2025-09-14.md",
+                "file": "2025-09-22.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-09-14"
+              "title": "Outline of 2025-09-22"
             }
           }
         ]
@@ -184,12 +183,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "1b4a153d58052da6",
+  "active": "785710e63e1d15a1",
   "lastOpenFiles": [
-    "2025-09-13.md",
     "2025-09-14.md",
-    "2025-09-10.md",
+    "2025-09-22.md",
+    "09222025.txt",
     "2025-09-09.md",
+    "2025-09-13.md",
+    "2025-09-10.md",
     "2025-09-08.md",
     "2025-09-10.txt",
     "2025-09-09.txt",
