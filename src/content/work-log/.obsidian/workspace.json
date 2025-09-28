@@ -11,14 +11,13 @@
             "id": "785710e63e1d15a1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "2025-09-24.md",
-                "mode": "source",
-                "source": false
+                "file": "Untitled.base",
+                "viewName": "Table"
               },
-              "icon": "lucide-file",
-              "title": "2025-09-24"
+              "icon": "lucide-table",
+              "title": "Untitled"
             }
           },
           {
@@ -108,7 +107,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2025-09-24.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +116,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2025-09-24"
+              "title": "Backlinks"
             }
           },
           {
@@ -127,12 +125,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2025-09-24.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2025-09-24"
+              "title": "Outgoing links"
             }
           },
           {
@@ -156,13 +153,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2025-09-24.md",
+                "file": "Untitled 1.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-09-24"
+              "title": "Outline of Untitled 1"
             }
           }
         ]
@@ -183,17 +180,17 @@
       "bases:Create new base": false
     }
   },
-  "active": "785710e63e1d15a1",
+  "active": "1e860c422e309f97",
   "lastOpenFiles": [
-    "2025-09-23.md",
-    "2025-09-24.md",
-    "2025-09-26.md",
-    "2025-09-28.md",
-    "Untitled 1.base",
     "Untitled.base",
+    "2025-09-28.md",
+    "2025-09-26.md",
+    "2025-09-24.md",
     "2025-09-25.md",
-    "09232025-MEMO.TXT",
     "2025-09-22.md",
+    "2025-09-23.md",
+    "Untitled 1.base",
+    "09232025-MEMO.TXT",
     "2025-09-09.md",
     "2025-09-14.md",
     "09222025.txt",
