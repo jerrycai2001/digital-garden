@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "785710e63e1d15a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2025-09-24.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-09-24"
-            }
-          },
-          {
             "id": "1b4a153d58052da6",
             "type": "leaf",
             "state": {
@@ -34,8 +20,47 @@
               "icon": "lucide-file",
               "title": "2025-09-14"
             }
+          },
+          {
+            "id": "d05af2d02be4f995",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PRD.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PRD"
+            }
+          },
+          {
+            "id": "584b4d12d161ebd1",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.14"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.14"
+            }
+          },
+          {
+            "id": "672cecbdd4e5de2d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.3"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -67,7 +92,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "brag",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -108,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2025-09-24.md",
+                "file": "2025-09-14.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +143,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2025-09-24"
+              "title": "Backlinks for 2025-09-14"
             }
           },
           {
@@ -127,12 +152,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2025-09-24.md",
+                "file": "2025-09-14.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2025-09-24"
+              "title": "Outgoing links from 2025-09-14"
             }
           },
           {
@@ -156,13 +181,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2025-09-24.md",
+                "file": "2025-09-14.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-09-24"
+              "title": "Outline of 2025-09-14"
             }
           }
         ]
@@ -183,28 +208,40 @@
       "bases:Create new base": false
     }
   },
-  "active": "785710e63e1d15a1",
+  "active": "672cecbdd4e5de2d",
   "lastOpenFiles": [
-    "0005-09-25.md",
-    "2025-09-24.md",
+    "2025-09-14.md",
+    "PRD.md",
+    "Endeavor AI",
+    "2025-10-23.md",
+    "2025-10-22.md",
+    "2025-10-19.md",
+    "2025-10-18.md",
+    "2025-10-12.md",
+    "2025-10-08.md",
+    "2025-10-07.md",
+    "2025-10-05.md",
+    "2025-10-01.md",
+    "2025-10-03.md",
+    "2025-09-30.md",
+    "2025-10-04.md",
+    "2025-09-29.md",
     "2025-09-28.md",
+    "2025-09-26.md",
+    "2025-09-24.md",
+    "0005-09-25.md",
     "2025-09-22.md",
     "2025-08-30.md",
     "2025-08-19.md",
     "Untitled 1.base",
     "Untitled.base",
-    "2025-09-26.md",
     "2025-09-25.md",
     "2025-09-23.md",
     "09232025-MEMO.TXT",
     "2025-09-09.md",
-    "2025-09-14.md",
     "09222025.txt",
     "2025-09-13.md",
-    "2025-09-10.md",
-    "2025-09-08.md",
     "2025-09-10.txt",
-    "2025-09-09.txt",
-    "2025-09-06.md"
+    "2025-09-09.txt"
   ]
 }
